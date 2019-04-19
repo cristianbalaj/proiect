@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-tittle  {
+
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: white;
+}
+
+.Margine  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Tabs {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.Tabs__Tab {
+  display: inline-block;
+  padding: 1em;
+  background: #ededed;
+  color: limegreen;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.backgroundImage{
+  backgroundPosition: center;
+  backgroundSize: cover;
+  backgroundRepeat: no-repeat;
+}
+
+.Tabs__Underline {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid orange;
+}
+
+.image_card{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   height: 95%;
+
+ }
+
+.image_doctors{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 250px;
+
+}
+
+.image_table{
+
+  width: 100px;
+  height: 100px;
+
+}
+
+.en_ro_button{
+    position: absolute;
+    left:93%;
+}
+
+.card_grid_inCards {
+    display: inline;
+
+} /* li item */
+
+.watermark {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    opacity:0.5;
+    z-index:99;
+    color:white;
+}
+
+.card_props{
+     position:absolute;
+     display: block;
+     margin-left: 10%;
+     margin-right: auto;
+     margin-top: auto;
+
+    border-bottom: 10px;
+     width: 77%;
+     height: auto;
+     padding-top: 3%;
+
+     border-top: 10px;
+
+
+
+ }
+
+.doctor_props{
+    position:absolute;
+    width: 400px;
+    height: auto;
+    align-items: flex-start;
+}
+
+.tabs_styling{
+    position: absolute;
+    width: 100%;
+    margin-right: auto;
+}
+.tables_styling{
+    position: absolute;
+    width: 95%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.header_Styling{
+  color: #ffffff;
+  font-family: 'Droid serif', serif;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #fff;
+}
+
+.button_for_medici{
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.75;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.X_button{
+    position: absolute;
+    bottom: 10px;
+}
+
+.myButton {
+    -moz-box-shadow: 0px 14px 19px -7px #276873;
+    -webkit-box-shadow: 0px 14px 19px -7px #276873;
+    box-shadow: 0px 14px 19px -7px #276873;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b2cef0), color-stop(1, #516ad6));
+    background:-moz-linear-gradient(top, #b2cef0 5%, #516ad6 100%);
+    background:-webkit-linear-gradient(top, #b2cef0 5%, #516ad6 100%);
+    background:-o-linear-gradient(top, #b2cef0 5%, #516ad6 100%);
+    background:-ms-linear-gradient(top, #b2cef0 5%, #516ad6 100%);
+    background:linear-gradient(to bottom, #b2cef0 5%, #516ad6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2cef0', endColorstr='#516ad6',GradientType=0);
+    background-color:#b2cef0;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    border:1px solid #29668f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    padding:8px 32px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #3d768a;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #516ad6), color-stop(1, #b2cef0));
+    background:-moz-linear-gradient(top, #516ad6 5%, #b2cef0 100%);
+    background:-webkit-linear-gradient(top, #516ad6 5%, #b2cef0 100%);
+    background:-o-linear-gradient(top, #516ad6 5%, #b2cef0 100%);
+    background:-ms-linear-gradient(top, #516ad6 5%, #b2cef0 100%);
+    background:linear-gradient(to bottom, #516ad6 5%, #b2cef0 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#516ad6', endColorstr='#b2cef0',GradientType=0);
+    background-color:#516ad6;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.doctor_card{
+    width: 40px;
+    height: 40px;
+}
+
+.cards_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* see notes below */
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1rem;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.cards_grid_hospitals {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(900px, 1fr)); /* see notes below */
+    grid-auto-rows: minmax(800px, auto);
+    grid-gap: 1rem;
+
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-self: center;
+}
+.cards_grid_2 {
+
+    position: center;
+    align-self: center;
+    position: relative;
+    width: 100%;
+
+
+}
